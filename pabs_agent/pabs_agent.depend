@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1492880817 source:/home/rand/Documents/sem6/TIN/Projekt/pabs_agent/main.cpp
+	<iostream>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netdb.h>
+	<stdio.h>
+	<unistd.h>
+	<cstdlib>
+	<cstring>
+	<csignal>
+	"AgentConnector.h"
+	"msg_types.h"
+
+1492915662 /home/rand/Documents/sem6/TIN/Projekt/pabs_agent/include/AgentConnector.h
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<netinet/in.h>
+	<unistd.h>
+	<cstring>
+	<stdexcept>
+	<thread>
+	<poll.h>
+	<iostream>
+	"msg_types.h"
+
+1492910762 /home/rand/Documents/sem6/TIN/Projekt/include/msg_types.h
+	<string>
+	<cstdio>
+
+1492912439 source:/home/rand/Documents/sem6/TIN/Projekt/pabs_agent/src/AgentConnector.cpp
+	"AgentConnector.h"
+

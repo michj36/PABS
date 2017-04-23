@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1492903171 source:/home/rand/Documents/sem6/TIN/Projekt/pabs_server/main.cpp
+	<iostream>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<netinet/in.h>
+	<stdio.h>
+	<unistd.h>
+	<cstring>
+	<csignal>
+	"msg_types.h"
+	"Listener.h"
+	"CommandHandler.h"
+
+1492910762 /home/rand/Documents/sem6/TIN/Projekt/include/msg_types.h
+	<string>
+	<cstdio>
+
+1492904051 /home/rand/Documents/sem6/TIN/Projekt/pabs_server/include/Listener.h
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<netinet/in.h>
+	<stdio.h>
+	<unistd.h>
+	<cstring>
+	<stdexcept>
+	<thread>
+	<poll.h>
+	<iostream>
+	<vector>
+	"msg_types.h"
+	"ServerConnector.h"
+
+1492897779 source:/home/rand/Documents/sem6/TIN/Projekt/pabs_server/src/CommandHandler.cpp
+	"CommandHandler.h"
+
+1492894674 /home/rand/Documents/sem6/TIN/Projekt/pabs_server/include/CommandHandler.h
+	<unistd.h>
+	<iostream>
+	<vector>
+	"msg_types.h"
+	"ServerConnector.h"
+
+1492913151 source:/home/rand/Documents/sem6/TIN/Projekt/pabs_server/src/Listener.cpp
+	"Listener.h"
+
+1492913251 /home/rand/Documents/sem6/TIN/Projekt/pabs_server/include/ServerConnector.h
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<netinet/in.h>
+	<stdio.h>
+	<unistd.h>
+	<cstring>
+	<stdexcept>
+	<thread>
+	<poll.h>
+	<iostream>
+	"msg_types.h"
+
+1492912616 source:/home/rand/Documents/sem6/TIN/Projekt/pabs_server/src/ServerConnector.cpp
+	"ServerConnector.h"
+
